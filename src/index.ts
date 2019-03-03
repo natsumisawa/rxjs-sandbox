@@ -1,5 +1,4 @@
 import { Observable } from 'rxjs/Observable';
-import { timer } from 'rxjs';
 import 'rxjs/Rx';
 
 const observable = new Observable(observer => {
@@ -13,7 +12,6 @@ console.log("まだsubscribeしてないよ")
 observable.subscribe(x => console.log(x));
 // > hello
 // > world
-
 
 // interval(period: number, scheduler: Scheduler): Observable
 // https://www.learnrxjs.io/operators/creation/interval.html

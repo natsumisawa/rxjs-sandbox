@@ -1,0 +1,31 @@
+{
+  "name": "rxjs-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natsumisawa/rxjs-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natsumisawa/rxjs-sandbox/issues"
+  },
+  "homepage": "https://github.com/natsumisawa/rxjs-sandbox#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "rxjs": "^6.4.0",
+    "rxjs-compat": "^6.4.0"
+  }
+}

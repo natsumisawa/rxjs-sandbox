@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './src/index.ts',
+  entry: ['./src/observable-sandbox.ts', ['./test/observable-sandbox-spec.ts'],
   output: {
       filename: 'bundle.js'
   },

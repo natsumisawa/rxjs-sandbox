@@ -6,6 +6,7 @@
     "outDir": "dist"
   },
   "files": [
-    "./src/index.ts"
+    "./src/observable-sandbox.ts",
+    "./test/observable-sandbox-spec.ts"
   ]
 }

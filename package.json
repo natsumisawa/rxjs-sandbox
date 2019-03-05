@@ -19,7 +19,11 @@
   },
   "homepage": "https://github.com/natsumisawa/rxjs-sandbox#readme",
   "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
     "awesome-typescript-loader": "^5.2.1",
+    "chai": "^4.2.0",
+    "typemoq": "^2.1.0",
     "typescript": "^3.3.3333",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3"
